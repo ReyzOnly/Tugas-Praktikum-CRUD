@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Data User</title> 
+ 
+ <style> 
+ fieldset { 
+ width: 400px; 
+ margin:auto; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <!--membungkus tampilan Read Data--> 
+ <fieldset > 
+ <!--Judul pada fieldset--> 
+ <legend align="center">Input Data Penerbit</legend> 
+ 
+ <!--Tampulam Form Input Data--> 
+ <form action="tambahpenerbit_proses.php" method="post"> 
+ 
+ <input type="text" name="id_penerbit" placeholder="ID Penerbit" size="40px"> 
+ <br><br> 
+ <input type="text" name="nama" placeholder="Nama" size="40px"> 
+ <br><br> 
+ <input type="text" name="alamat" placeholder="Alamat" size="40px"> 
+ <br><br> 
+ <input type="text" name="kota" placeholder="Kota" size="40px"> 
+ <br><br>
+ <input type="text" name="telepon" placeholder="Telepon" size="40px"> 
+ <br><br>
+ <button type="submit" name="submit">SIMPAN</button> 
+ <button type="reset" name="reset">RESET</button> 
+ </form> 
+ </fieldset> 
+</body> 
+</html> 
